@@ -7,7 +7,7 @@
 	"trailingComma": "es5",
 	"bracketSpacing": true,
 	"proseWrap": "always",
-	"htmlWhitespaceSensitivity": "",
+	"htmlWhitespaceSensitivity": "strict",
 	"plugins": [
     "prettier-plugin-svelte",
     "prettier-plugin-tailwindcss",
