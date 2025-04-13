@@ -1,1 +1,19 @@
+/* Import Geist from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
 @import 'tailwindcss';
+
+@theme {
+	/*
+	Text
+	*/
+	--aalto-font: 'Geist', sans-serif;
+	--aalto-heading-tracking: -0.04em;
+	--aalto-tracking: -0.035em;
+
+	/*
+	Color
+	*/
+	--aalto-primary: oklch(14.7% 0.004 49.25);
+	--aalto-secondary: oklch(37.4% 0.01 67.558);
+}
