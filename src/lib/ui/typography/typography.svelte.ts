@@ -42,7 +42,7 @@ export function decomposeTextContent(
 	if (decomposeHelper.regExp !== undefined) {
 		node.innerHTML = node.textContent.replace(
 			decomposeHelper.regExp,
-			`<span class='${decomposeHelper.identifierClass} inline-block'>$&</span>`
+			`<span class='${decomposeHelper.identifierClass}'>$&</span>`
 		);
 	}
 }
